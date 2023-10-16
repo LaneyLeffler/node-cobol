@@ -1,5 +1,5 @@
 {
-  "name": "cobol",
+# "name": "cobol",
   "version": "2.0.3",
   "description": "COBOL bridge for NodeJS which allows you to run COBOL code from NodeJS.",
   "main": "lib/index.js",
@@ -28,7 +28,7 @@
         "h2": "Can I use this on production?"
       },
       {
-        "p": "Of course, you can! It's production ready! If you ever did such a thing, [ping me (@IonicaBizau)](https://twitter.com/IonicaBizau). :boom: :dizzy:"
+        "p": "Of course, you can# It's production ready# If you ever did such a thing, [ping me (@IonicaBizau)](https://twitter.com/IonicaBizau). :boom: :dizzy:"
       }
     ],
     "show_installation": false,
@@ -44,7 +44,7 @@
           "language": "sh",
           "content": [
             "$ sudo apt-get install gnucobol",
-            "# outdated systems: sudo apt-get install open-cobol"
+            "* outdated systems: sudo apt-get install open-cobol"
           ]
         }
       },
@@ -117,3 +117,4 @@
     "bloggify/"
   ]
 }
+ 
